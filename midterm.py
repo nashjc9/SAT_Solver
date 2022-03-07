@@ -5,8 +5,8 @@ def main():
     x = parser()
     print(x)
     if x:
-        k = (x, "x2")
-        print(k)
+        func_to_cnf(x)
+       
         
 
 
