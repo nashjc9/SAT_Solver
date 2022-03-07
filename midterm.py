@@ -1,11 +1,11 @@
 import sys
-from cnf import and_gate, or_gate, not_gate
+from cnf import func_to_cnf, and_gate, or_gate, not_gate
 
 def main():
     x = parser()
     print(x)
     if x:
-        k = not_gate(x, "x2")
+        k = (x, "x2")
         print(k)
         
 
